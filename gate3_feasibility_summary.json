@@ -1,0 +1,117 @@
+{
+ "what_this_is": "design-only feasibility and validity resolution for the Gate 3 rule",
+ "what_this_is_not": "not a hypothesis test; no average precision is read",
+ "seed": 20261103,
+ "n_sim": 40000,
+ "alpha": 0.05,
+ "delta_in_sd": 1.4,
+ "gate_threshold": 1.0,
+ "structure": {
+  "screens": 11,
+  "cell_models": 8,
+  "studies": 7,
+  "independent_components": 5,
+  "components": [
+   [
+    "22RV1",
+    "36060092"
+   ],
+   [
+    "28319113",
+    "293T",
+    "29452643",
+    "A549",
+    "HELA"
+   ],
+   [
+    "28319085",
+    "30033366",
+    "JURKAT",
+    "K562"
+   ],
+   [
+    "26864203",
+    "OVCAR8"
+   ],
+   [
+    "33956155",
+    "RPE1"
+   ]
+  ]
+ },
+ "attainable_p_grid": {
+  "5 units": {
+   "sign_vectors": 32,
+   "smallest_two_sided_p": 0.0625,
+   "smallest_one_sided_p": 0.03125,
+   "two_sided_reaches_0.05": false,
+   "one_sided_reaches_0.05": true
+  },
+  "7 units": {
+   "sign_vectors": 128,
+   "smallest_two_sided_p": 0.015625,
+   "smallest_one_sided_p": 0.0078125,
+   "two_sided_reaches_0.05": true,
+   "one_sided_reaches_0.05": true
+  },
+  "8 units": {
+   "sign_vectors": 256,
+   "smallest_two_sided_p": 0.0078125,
+   "smallest_one_sided_p": 0.00390625,
+   "two_sided_reaches_0.05": true,
+   "one_sided_reaches_0.05": true
+  }
+ },
+ "by_procedure": {
+  "A_released_conjunction_8x7": {
+   "size_worst_over_grid": 0.0807,
+   "size_worst_upper95": 0.0834,
+   "gated_size_worst_unconditional": 0.0486,
+   "gated_size_worst_CONDITIONAL_on_gate_passing": 0.1064,
+   "gated_cond_worst_upper95": 0.1115,
+   "power_at_delta_independence": 0.8978,
+   "gated_power_at_delta_independence": 0.5196,
+   "size_at_independence_normal": 0.0184
+  },
+  "B_registered_conjunction_8x5": {
+   "size_worst_over_grid": 0.0,
+   "size_worst_upper95": 0.0001,
+   "gated_size_worst_unconditional": 0.0,
+   "gated_size_worst_CONDITIONAL_on_gate_passing": 0.0,
+   "gated_cond_worst_upper95": 0.0001,
+   "power_at_delta_independence": 0.0,
+   "gated_power_at_delta_independence": 0.0,
+   "size_at_independence_normal": 0.0
+  },
+  "C_cellmodel_arm_8": {
+   "size_worst_over_grid": 0.1357,
+   "size_worst_upper95": 0.1391,
+   "gated_size_worst_unconditional": 0.0958,
+   "gated_size_worst_CONDITIONAL_on_gate_passing": 0.1735,
+   "gated_cond_worst_upper95": 0.1798,
+   "power_at_delta_independence": 0.9322,
+   "gated_power_at_delta_independence": 0.5374,
+   "size_at_independence_normal": 0.0449
+  },
+  "D_component_arm_5_twosided": {
+   "size_worst_over_grid": 0.0,
+   "size_worst_upper95": 0.0001,
+   "gated_size_worst_unconditional": 0.0,
+   "gated_size_worst_CONDITIONAL_on_gate_passing": 0.0,
+   "gated_cond_worst_upper95": 0.0001,
+   "power_at_delta_independence": 0.0,
+   "gated_power_at_delta_independence": 0.0,
+   "size_at_independence_normal": 0.0
+  },
+  "E_component_arm_5_onesided": {
+   "size_worst_over_grid": 0.1118,
+   "size_worst_upper95": 0.1149,
+   "gated_size_worst_unconditional": 0.0626,
+   "gated_size_worst_CONDITIONAL_on_gate_passing": 0.1362,
+   "gated_cond_worst_upper95": 0.1419,
+   "power_at_delta_independence": 0.8489,
+   "gated_power_at_delta_independence": 0.4922,
+   "size_at_independence_normal": 0.0299
+  }
+ }
+}

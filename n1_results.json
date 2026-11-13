@@ -1,0 +1,114 @@
+{
+  "eligible_G": 5,
+  "eligible_components": [
+    {
+      "studies": [
+        "36060092"
+      ],
+      "cells": [
+        "22RV1"
+      ],
+      "n_screens": 1
+    },
+    {
+      "studies": [
+        "28319113",
+        "29452643"
+      ],
+      "cells": [
+        "293T",
+        "A549",
+        "HELA"
+      ],
+      "n_screens": 5
+    },
+    {
+      "studies": [
+        "26864203"
+      ],
+      "cells": [
+        "OVCAR8"
+      ],
+      "n_screens": 1
+    },
+    {
+      "studies": [
+        "28319085",
+        "30033366"
+      ],
+      "cells": [
+        "JURKAT",
+        "K562"
+      ],
+      "n_screens": 3
+    },
+    {
+      "studies": [
+        "33956155"
+      ],
+      "cells": [
+        "RPE1"
+      ],
+      "n_screens": 1
+    }
+  ],
+  "whole_G": 3,
+  "whole_components": [
+    {
+      "studies": [
+        "36060092"
+      ],
+      "cells": [
+        "22RV1"
+      ],
+      "n_screens": 1
+    },
+    {
+      "studies": [
+        "26864203",
+        "28319113",
+        "29251726",
+        "29452643",
+        "33637726",
+        "33956155",
+        "34469736",
+        "34857952"
+      ],
+      "cells": [
+        "293T",
+        "786O",
+        "A375",
+        "A549",
+        "GI1",
+        "HELA",
+        "HS936T",
+        "HS944T",
+        "HSC5",
+        "HT29",
+        "IPC298",
+        "MEL202",
+        "MELJUSO",
+        "MEWO",
+        "OVCAR8",
+        "PATU8988S",
+        "PC9",
+        "PK1",
+        "RPE1"
+      ],
+      "n_screens": 29
+    },
+    {
+      "studies": [
+        "30033366"
+      ],
+      "cells": [
+        "JURKAT",
+        "K562"
+      ],
+      "n_screens": 2
+    }
+  ],
+  "min_G_two_sided": 6,
+  "min_G_one_sided": 5,
+  "alpha": 0.05
+}

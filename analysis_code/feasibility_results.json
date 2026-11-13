@@ -1,0 +1,315 @@
+{
+  "alpha": 0.05,
+  "min_G_two_sided": 6,
+  "min_G_one_sided": 5,
+  "rows": [
+    {
+      "resource": "SLKB (whole resource, all screens)",
+      "n_screens": 32,
+      "n_studies": 10,
+      "n_cell_models": 22,
+      "G": 3,
+      "min_p_two_sided": 0.25,
+      "min_p_one_sided": 0.125,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "26864203",
+            "28319113",
+            "29251726",
+            "29452643",
+            "33637726",
+            "33956155",
+            "34469736",
+            "34857952"
+          ],
+          "cells": [
+            "293T",
+            "786O",
+            "A375",
+            "A549",
+            "GI1",
+            "HELA",
+            "HS936T",
+            "HS944T",
+            "HSC5",
+            "HT29",
+            "IPC298",
+            "MEL202",
+            "MELJUSO",
+            "MEWO",
+            "OVCAR8",
+            "PATU8988S",
+            "PC9",
+            "PK1",
+            "RPE1"
+          ],
+          "n_screens": 29
+        },
+        {
+          "studies": [
+            "30033366"
+          ],
+          "cells": [
+            "JURKAT",
+            "K562"
+          ],
+          "n_screens": 2
+        },
+        {
+          "studies": [
+            "36060092"
+          ],
+          "cells": [
+            "22RV1"
+          ],
+          "n_screens": 1
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 26864203",
+      "n_screens": 1,
+      "n_studies": 1,
+      "n_cell_models": 1,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "26864203"
+          ],
+          "cells": [
+            "OVCAR8"
+          ],
+          "n_screens": 1
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 28319113",
+      "n_screens": 3,
+      "n_studies": 1,
+      "n_cell_models": 3,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "28319113"
+          ],
+          "cells": [
+            "293T",
+            "A549",
+            "HELA"
+          ],
+          "n_screens": 3
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 29251726",
+      "n_screens": 6,
+      "n_studies": 1,
+      "n_cell_models": 6,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "29251726"
+          ],
+          "cells": [
+            "786O",
+            "A375",
+            "A549",
+            "HT29",
+            "MELJUSO",
+            "OVCAR8"
+          ],
+          "n_screens": 6
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 29452643",
+      "n_screens": 2,
+      "n_studies": 1,
+      "n_cell_models": 2,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "29452643"
+          ],
+          "cells": [
+            "A549",
+            "HELA"
+          ],
+          "n_screens": 2
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 30033366",
+      "n_screens": 2,
+      "n_studies": 1,
+      "n_cell_models": 2,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "30033366"
+          ],
+          "cells": [
+            "JURKAT",
+            "K562"
+          ],
+          "n_screens": 2
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 33637726",
+      "n_screens": 3,
+      "n_studies": 1,
+      "n_cell_models": 3,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "33637726"
+          ],
+          "cells": [
+            "A375",
+            "MEWO",
+            "RPE1"
+          ],
+          "n_screens": 3
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 33956155",
+      "n_screens": 1,
+      "n_studies": 1,
+      "n_cell_models": 1,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "33956155"
+          ],
+          "cells": [
+            "RPE1"
+          ],
+          "n_screens": 1
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 34469736",
+      "n_screens": 2,
+      "n_studies": 1,
+      "n_cell_models": 2,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "34469736"
+          ],
+          "cells": [
+            "HELA",
+            "PC9"
+          ],
+          "n_screens": 2
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 34857952",
+      "n_screens": 11,
+      "n_studies": 1,
+      "n_cell_models": 11,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "34857952"
+          ],
+          "cells": [
+            "A549",
+            "GI1",
+            "HS936T",
+            "HS944T",
+            "HSC5",
+            "IPC298",
+            "MEL202",
+            "MELJUSO",
+            "MEWO",
+            "PATU8988S",
+            "PK1"
+          ],
+          "n_screens": 11
+        }
+      ]
+    },
+    {
+      "resource": "SLKB study PMID 36060092",
+      "n_screens": 1,
+      "n_studies": 1,
+      "n_cell_models": 1,
+      "G": 1,
+      "min_p_two_sided": 1.0,
+      "min_p_one_sided": 0.5,
+      "two_sided_feasible": false,
+      "one_sided_feasible": false,
+      "components": [
+        {
+          "studies": [
+            "36060092"
+          ],
+          "cells": [
+            "22RV1"
+          ],
+          "n_screens": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+ "seed": 20261031,
+ "n_sim": 20000,
+ "structure": {
+  "screens": 11,
+  "cell_models": 8,
+  "studies": 7
+ },
+ "summary": {
+  "chisq1|hetero=False": {
+   "max_cell_two_sided": 0.1492,
+   "max_study_two_sided": 0.1172,
+   "max_conjunction_two_sided": 0.09,
+   "max_cell_paired_t": 0.1638,
+   "at_independence": {
+    "size_cell_two_sided": 0.1274,
+    "size_study_two_sided": 0.1136,
+    "size_conjunction_two_sided": 0.0786,
+    "size_cell_paired_t_two_sided": 0.138
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.4
+   }
+  },
+  "chisq1|hetero=True": {
+   "max_cell_two_sided": 0.156,
+   "max_study_two_sided": 0.1172,
+   "max_conjunction_two_sided": 0.09,
+   "max_cell_paired_t": 0.17,
+   "at_independence": {
+    "size_cell_two_sided": 0.1172,
+    "size_study_two_sided": 0.1096,
+    "size_conjunction_two_sided": 0.0744,
+    "size_cell_paired_t_two_sided": 0.127
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma1|hetero=False": {
+   "max_cell_two_sided": 0.1318,
+   "max_study_two_sided": 0.0914,
+   "max_conjunction_two_sided": 0.0662,
+   "max_cell_paired_t": 0.1418,
+   "at_independence": {
+    "size_cell_two_sided": 0.0882,
+    "size_study_two_sided": 0.0836,
+    "size_conjunction_two_sided": 0.0509,
+    "size_cell_paired_t_two_sided": 0.0985
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma1|hetero=True": {
+   "max_cell_two_sided": 0.1398,
+   "max_study_two_sided": 0.0936,
+   "max_conjunction_two_sided": 0.0662,
+   "max_cell_paired_t": 0.1511,
+   "at_independence": {
+    "size_cell_two_sided": 0.0838,
+    "size_study_two_sided": 0.0804,
+    "size_conjunction_two_sided": 0.049,
+    "size_cell_paired_t_two_sided": 0.0917
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma16|hetero=False": {
+   "max_cell_two_sided": 0.1051,
+   "max_study_two_sided": 0.0748,
+   "max_conjunction_two_sided": 0.0421,
+   "max_cell_paired_t": 0.1116,
+   "at_independence": {
+    "size_cell_two_sided": 0.0496,
+    "size_study_two_sided": 0.0501,
+    "size_conjunction_two_sided": 0.022,
+    "size_cell_paired_t_two_sided": 0.0526
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma16|hetero=True": {
+   "max_cell_two_sided": 0.1114,
+   "max_study_two_sided": 0.0746,
+   "max_conjunction_two_sided": 0.0435,
+   "max_cell_paired_t": 0.1168,
+   "at_independence": {
+    "size_cell_two_sided": 0.0488,
+    "size_study_two_sided": 0.0492,
+    "size_conjunction_two_sided": 0.0216,
+    "size_cell_paired_t_two_sided": 0.0463
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma4|hetero=False": {
+   "max_cell_two_sided": 0.1134,
+   "max_study_two_sided": 0.074,
+   "max_conjunction_two_sided": 0.0456,
+   "max_cell_paired_t": 0.1205,
+   "at_independence": {
+    "size_cell_two_sided": 0.0576,
+    "size_study_two_sided": 0.0546,
+    "size_conjunction_two_sided": 0.028,
+    "size_cell_paired_t_two_sided": 0.0626
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "gamma4|hetero=True": {
+   "max_cell_two_sided": 0.1198,
+   "max_study_two_sided": 0.0762,
+   "max_conjunction_two_sided": 0.0456,
+   "max_cell_paired_t": 0.126,
+   "at_independence": {
+    "size_cell_two_sided": 0.0576,
+    "size_study_two_sided": 0.056,
+    "size_conjunction_two_sided": 0.0288,
+    "size_cell_paired_t_two_sided": 0.057
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "lognormal|hetero=False": {
+   "max_cell_two_sided": 0.1458,
+   "max_study_two_sided": 0.1098,
+   "max_conjunction_two_sided": 0.0836,
+   "max_cell_paired_t": 0.157,
+   "at_independence": {
+    "size_cell_two_sided": 0.1066,
+    "size_study_two_sided": 0.0968,
+    "size_conjunction_two_sided": 0.0628,
+    "size_cell_paired_t_two_sided": 0.1172
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.4
+   }
+  },
+  "lognormal|hetero=True": {
+   "max_cell_two_sided": 0.1501,
+   "max_study_two_sided": 0.1098,
+   "max_conjunction_two_sided": 0.0836,
+   "max_cell_paired_t": 0.1598,
+   "at_independence": {
+    "size_cell_two_sided": 0.1022,
+    "size_study_two_sided": 0.0959,
+    "size_conjunction_two_sided": 0.0635,
+    "size_cell_paired_t_two_sided": 0.1089
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "normal|hetero=False": {
+   "max_cell_two_sided": 0.1024,
+   "max_study_two_sided": 0.0706,
+   "max_conjunction_two_sided": 0.0429,
+   "max_cell_paired_t": 0.1072,
+   "at_independence": {
+    "size_cell_two_sided": 0.0454,
+    "size_study_two_sided": 0.0446,
+    "size_conjunction_two_sided": 0.019,
+    "size_cell_paired_t_two_sided": 0.046
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.1
+   }
+  },
+  "normal|hetero=True": {
+   "max_cell_two_sided": 0.1078,
+   "max_study_two_sided": 0.0709,
+   "max_conjunction_two_sided": 0.0429,
+   "max_cell_paired_t": 0.1134,
+   "at_independence": {
+    "size_cell_two_sided": 0.0446,
+    "size_study_two_sided": 0.0452,
+    "size_conjunction_two_sided": 0.019,
+    "size_cell_paired_t_two_sided": 0.0406
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "t3|hetero=False": {
+   "max_cell_two_sided": 0.1013,
+   "max_study_two_sided": 0.0694,
+   "max_conjunction_two_sided": 0.0402,
+   "max_cell_paired_t": 0.0964,
+   "at_independence": {
+    "size_cell_two_sided": 0.0462,
+    "size_study_two_sided": 0.0466,
+    "size_conjunction_two_sided": 0.022,
+    "size_cell_paired_t_two_sided": 0.0392
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  },
+  "t3|hetero=True": {
+   "max_cell_two_sided": 0.1069,
+   "max_study_two_sided": 0.0724,
+   "max_conjunction_two_sided": 0.0402,
+   "max_cell_paired_t": 0.1008,
+   "at_independence": {
+    "size_cell_two_sided": 0.0462,
+    "size_study_two_sided": 0.0472,
+    "size_conjunction_two_sided": 0.0231,
+    "size_cell_paired_t_two_sided": 0.0356
+   },
+   "worst_cell_cell": {
+    "rho_within_study": 0.6,
+    "rho_shared_line": 0.0
+   }
+  }
+ }
+}

@@ -1,0 +1,1560 @@
+{
+ "run_utc": "2026-10-31T16:12:44Z",
+ "date_field": "edat",
+ "range": "2025/01/01-2026/10/31",
+ "queries": {
+  "Q1_SL_LLM_RAG_agent": {
+   "query": "(\"synthetic lethal\"[tiab] OR \"synthetic lethality\"[tiab]) AND (\"large language model\"[tiab] OR \"language model\"[tiab] OR \"retrieval-augmented\"[tiab] OR \"retrieval augmented\"[tiab] OR agent[tiab] OR agentic[tiab] OR \"knowledge graph\"[tiab])",
+   "count": 46,
+   "pmids": [
+    "42862883",
+    "42721585",
+    "42712955",
+    "42660065",
+    "42623915",
+    "42511857",
+    "42350371",
+    "42314466",
+    "42289745",
+    "42264143",
+    "42181208",
+    "41835396",
+    "41807550",
+    "41680300",
+    "41648610",
+    "41442499",
+    "41427373",
+    "41337148",
+    "41336725",
+    "41285729",
+    "41217910",
+    "41213161",
+    "41052159",
+    "41036607",
+    "40959971",
+    "40914864",
+    "40913762",
+    "40908147",
+    "40896366",
+    "40854903",
+    "40847617",
+    "40834643",
+    "40766251",
+    "40764992",
+    "40652528",
+    "40568940",
+    "40299557",
+    "40280558",
+    "40270892",
+    "40194555",
+    "40105672",
+    "40093518",
+    "40091075",
+    "40089867",
+    "40036611",
+    "39930152"
+   ]
+  },
+  "Q2_SL_prediction_benchmark_leakage": {
+   "query": "(\"synthetic lethal\"[tiab] OR \"synthetic lethality\"[tiab]) AND (prediction[tiab] OR predict*[tiab]) AND (benchmark*[tiab] OR leakage[tiab] OR generaliz*[tiab] OR \"cold-start\"[tiab] OR \"data split\"[tiab])",
+   "count": 15,
+   "pmids": [
+    "42712955",
+    "42704265",
+    "42351126",
+    "42289745",
+    "42213569",
+    "42124720",
+    "41727639",
+    "41337397",
+    "41336725",
+    "41217910",
+    "41150233",
+    "41052159",
+    "40766692",
+    "40483544",
+    "39948334"
+   ]
+  },
+  "Q3_context_specific_SL": {
+   "query": "(\"synthetic lethal\"[tiab] OR \"synthetic lethality\"[tiab]) AND (\"cell line-specific\"[tiab] OR \"context-specific\"[tiab] OR \"context-dependent\"[tiab] OR \"cell-line-specific\"[tiab] OR \"genetic context\"[tiab])",
+   "count": 52,
+   "pmids": [
+    "42907311",
+    "42881166",
+    "42794728",
+    "42773173",
+    "42748573",
+    "42747431",
+    "42720810",
+    "42704265",
+    "42701198",
+    "42685085",
+    "42634504",
+    "42626789",
+    "42574757",
+    "42558868",
+    "42528148",
+    "42517066",
+    "42512423",
+    "42387642",
+    "42380617",
+    "42352396",
+    "42349694",
+    "42302790",
+    "42292428",
+    "42278581",
+    "42255480",
+    "42251262",
+    "42232064",
+    "42182296",
+    "42171986",
+    "42124720",
+    "42083788",
+    "42049019",
+    "42026135",
+    "41984920",
+    "41904584",
+    "41858346",
+    "41839763",
+    "41727427",
+    "41575849",
+    "41504119",
+    "41491919",
+    "41487565",
+    "41418667",
+    "41337397",
+    "41336725",
+    "41221029",
+    "40877927",
+    "40801639",
+    "40673159",
+    "40429787",
+    "40326560",
+    "40278910"
+   ]
+  },
+  "Q4_RAG_target_discovery_cancer": {
+   "query": "(\"retrieval-augmented\"[tiab] OR \"retrieval augmented\"[tiab]) AND (cancer[tiab] OR oncology[tiab]) AND (target[tiab] OR biomarker[tiab] OR gene[tiab])",
+   "count": 9,
+   "pmids": [
+    "42963884",
+    "42499761",
+    "42290934",
+    "42211289",
+    "41876500",
+    "41611789",
+    "41544626",
+    "40293950",
+    "40068371"
+   ]
+  },
+  "Q5_combinatorial_screen_BRCA_breast": {
+   "query": "(\"combinatorial CRISPR\"[tiab] OR \"dual-guide\"[tiab] OR \"double knockout\"[tiab] OR \"paralog\"[tiab] OR \"genetic interaction screen\"[tiab]) AND (BRCA1[tiab] OR BRCA2[tiab] OR \"breast cancer\"[tiab]) AND (synthetic lethal*[tiab])",
+   "count": 4,
+   "pmids": [
+    "41507994",
+    "41375077",
+    "41131861",
+    "39982959"
+   ]
+  },
+  "Q6_SL_label_validity_reproducibility": {
+   "query": "(\"synthetic lethal\"[tiab] OR \"genetic interaction\"[tiab]) AND (CRISPR[tiab]) AND (reproducibility[tiab] OR concordance[tiab] OR \"scoring methods\"[tiab] OR \"cross-study\"[tiab])",
+   "count": 3,
+   "pmids": [
+    "41727066",
+    "41542642",
+    "41018953"
+   ]
+  }
+ },
+ "records": {
+  "39930152": {
+   "title": "A CRISPR-Cas9 screen reveals genetic determinants of the cellular response to decitabine.",
+   "source": "EMBO Rep",
+   "pubdate": "2025 Mar",
+   "epubdate": "2025 Feb 10",
+   "doi": "10.1038/s44319-025-00385-w",
+   "first_author": "Zhang P",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "39948334": {
+   "title": "Author Correction: Benchmarking machine learning methods for synthetic lethality prediction in cancer.",
+   "source": "Nat Commun",
+   "pubdate": "2025 Feb 13",
+   "epubdate": "2025 Feb 13",
+   "doi": "10.1038/s41467-025-56368-x",
+   "first_author": "Feng Y",
+   "pubtype": [
+    "Published Erratum"
+   ]
+  },
+  "39982959": {
+   "title": "Caspase 3 and caspase 7 promote cytoprotective autophagy and the DNA damage response during non-lethal stress conditions in human breast cancer cells.",
+   "source": "PLoS Biol",
+   "pubdate": "2025 Feb",
+   "epubdate": "2025 Feb 21",
+   "doi": "10.1371/journal.pbio.3003034",
+   "first_author": "Samarasekera G",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40036611": {
+   "title": "Natural product Pulsatilla saponin D sensitizes BRCA-proficient ovarian cancers to PARP inhibitors through inhibiting homologous recombination repair.",
+   "source": "J Pharm Pharmacol",
+   "pubdate": "2025 Apr 3",
+   "epubdate": "",
+   "doi": "10.1093/jpp/rgaf006",
+   "first_author": "Lin S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40068371": {
+   "title": "Retrieval-Augmented Generation: Advancing personalized care and research in oncology.",
+   "source": "Eur J Cancer",
+   "pubdate": "2025 May 2",
+   "epubdate": "2025 Mar 6",
+   "doi": "10.1016/j.ejca.2025.115341",
+   "first_author": "Zarfati M",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "40089867": {
+   "title": "Targeting Replication Fork Processing Synergizes with PARP Inhibition to Potentiate Lethality in Homologous Recombination Proficient Ovarian Cancers.",
+   "source": "Adv Sci (Weinh)",
+   "pubdate": "2025 May",
+   "epubdate": "2025 Mar 16",
+   "doi": "10.1002/advs.202410718",
+   "first_author": "Pai Bellare G",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40091075": {
+   "title": "Investigating synthetic lethality and PARP inhibitor resistance in pancreatic cancer through enantiomer differential activity.",
+   "source": "Cell Death Discov",
+   "pubdate": "2025 Mar 16",
+   "epubdate": "2025 Mar 16",
+   "doi": "10.1038/s41420-025-02382-3",
+   "first_author": "Masi M",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40093518": {
+   "title": "Development of p300-targeting degraders with enhanced selectivity and onset of degradation.",
+   "source": "RSC Med Chem",
+   "pubdate": "2025 May 22",
+   "epubdate": "2025 Mar 3",
+   "doi": "10.1039/d4md00969j",
+   "first_author": "Marsh GP",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40105672": {
+   "title": "Coinhibition of Aurora Kinase B and SUV4-20H Induces Synthetic Lethality in Wild-type p53-Deficient Cancer Cells.",
+   "source": "Mol Cancer Ther",
+   "pubdate": "2025 Jul 2",
+   "epubdate": "",
+   "doi": "10.1158/1535-7163.MCT-24-0928",
+   "first_author": "Duan L",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40194555": {
+   "title": "Interpretable high-order knowledge graph neural network for predicting synthetic lethality in human cancers.",
+   "source": "Brief Bioinform",
+   "pubdate": "2025 Mar 4",
+   "epubdate": "",
+   "doi": "10.1093/bib/bbaf142",
+   "first_author": "Chen X",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40270892": {
+   "title": "Dual-responsive nanoscale ultrasound contrast agent as an oxidative stress amplifier for enhanced DNA damage in BRCA-proficient ovarian cancer.",
+   "source": "Mater Today Bio",
+   "pubdate": "2025 Jun",
+   "epubdate": "2025 Apr 11",
+   "doi": "10.1016/j.mtbio.2025.101761",
+   "first_author": "Zhang J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40278910": {
+   "title": "CHD1 dysregulation in cancer: bridging chromatin instability, therapy resistance, and immune evasion.",
+   "source": "Mol Biol Rep",
+   "pubdate": "2025 Apr 25",
+   "epubdate": "2025 Apr 25",
+   "doi": "10.1007/s11033-025-10536-w",
+   "first_author": "Kumar KSP",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "40280558": {
+   "title": "Discovery of Novel, Potent, and Orally Bioavailable SMARCA2 Proteolysis-Targeting Chimeras with Synergistic Antitumor Activity in Combination with Kirsten Rat Sarcoma Viral Oncogene Homologue G12C Inhibitors.",
+   "source": "J Med Chem",
+   "pubdate": "2025 May 8",
+   "epubdate": "2025 Apr 25",
+   "doi": "10.1021/acs.jmedchem.4c02577",
+   "first_author": "Kotagiri S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40293950": {
+   "title": "Inferring Drug-Gene Relationships in Cancer Using Literature-Augmented Large Language Models.",
+   "source": "Cancer Res Commun",
+   "pubdate": "2025 Apr 1",
+   "epubdate": "",
+   "doi": "10.1158/2767-9764.CRC-25-0030",
+   "first_author": "Lai YJ",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "40299557": {
+   "title": "Ivosidenib Confers BRCAness Phenotype and Synthetic Lethality to Poly (ADP-Ribose) Polymerase Inhibition in BRCA1/2-Proficient Cancer Cells.",
+   "source": "Biomedicines",
+   "pubdate": "2025 Apr 14",
+   "epubdate": "2025 Apr 14",
+   "doi": "10.3390/biomedicines13040958",
+   "first_author": "Zhou D",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40326560": {
+   "title": "The context-dependent epigenetic and organogenesis programs determine 3D vs. 2D cellular fitness of MYC-driven murine liver cancer cells.",
+   "source": "Elife",
+   "pubdate": "2025 May 6",
+   "epubdate": "2025 May 6",
+   "doi": "10.7554/eLife.101299",
+   "first_author": "Fang J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40429787": {
+   "title": "ARID1A and Its Impact Across the Hallmarks of Cancer.",
+   "source": "Int J Mol Sci",
+   "pubdate": "2025 May 13",
+   "epubdate": "2025 May 13",
+   "doi": "10.3390/ijms26104644",
+   "first_author": "Kearns B",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "40483544": {
+   "title": "TARGET-SL: precision essential gene prediction using driver prioritisation and synthetic lethality.",
+   "source": "Brief Bioinform",
+   "pubdate": "2025 May 1",
+   "epubdate": "",
+   "doi": "10.1093/bib/bbaf255",
+   "first_author": "Gillman R",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40568940": {
+   "title": "Pyridine-bis(benzimidazole) induces DNA damage at G-quadruplex loci and promotes synthetic lethality with DNA repair inhibition.",
+   "source": "Nucleic Acids Res",
+   "pubdate": "2025 Jun 20",
+   "epubdate": "",
+   "doi": "10.1093/nar/gkaf543",
+   "first_author": "Yan J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40652528": {
+   "title": "Olaparib synergy screen reveals Exemestane induces replication stress in triple-negative breast cancer.",
+   "source": "Mol Oncol",
+   "pubdate": "2025 Nov",
+   "epubdate": "2025 Jul 13",
+   "doi": "10.1002/1878-0261.70093",
+   "first_author": "Yusoh NA",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "40673159": {
+   "title": "microRNA-497-5p-based screening identifies a novel synthetic lethal-type interaction via PKMYT1 and WEE1 in pleural mesothelioma.",
+   "source": "Mol Ther Nucleic Acids",
+   "pubdate": "2025 Sep 9",
+   "epubdate": "2025 Jun 17",
+   "doi": "10.1016/j.omtn.2025.102610",
+   "first_author": "Pruett N",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40764992": {
+   "title": "Ivabradine induces RAD51 degradation, potentiating PARP inhibitor efficacy in non-germline BRCA pathogenic variant triple-negative breast cancer.",
+   "source": "J Transl Med",
+   "pubdate": "2025 Aug 5",
+   "epubdate": "2025 Aug 5",
+   "doi": "10.1186/s12967-025-06902-8",
+   "first_author": "Tsoi H",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "40766251": {
+   "title": "The PLK4 inhibitor RP-1664 demonstrates potent single-agent efficacy in neuroblastoma models through a dual mechanism of sensitivity.",
+   "source": "Res Sq",
+   "pubdate": "2025 Jul 29",
+   "epubdate": "2025 Jul 29",
+   "doi": "10.21203/rs.3.rs-7014295/v1",
+   "first_author": "Maris J",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "40766692": {
+   "title": "On-target toxicity limits the efficacy of CDK11 inhibition against cancers with 1p36 deletions.",
+   "source": "bioRxiv",
+   "pubdate": "2025 Aug 3",
+   "epubdate": "2025 Aug 3",
+   "doi": "10.1101/2025.08.03.668359",
+   "first_author": "Julian L",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "40801639": {
+   "title": "Reactive Oxygen Species: A Double-Edged Sword in the Modulation of Cancer Signaling Pathway Dynamics.",
+   "source": "Cells",
+   "pubdate": "2025 Aug 6",
+   "epubdate": "2025 Aug 6",
+   "doi": "10.3390/cells14151207",
+   "first_author": "Nigam M",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "40834643": {
+   "title": "Cisplatin-induced genetic alterations in KEAP1 promote therapeutic resistance in head and neck squamous cell carcinoma.",
+   "source": "Redox Biol",
+   "pubdate": "2025 Oct",
+   "epubdate": "2025 Aug 11",
+   "doi": "10.1016/j.redox.2025.103819",
+   "first_author": "Nakayama Y",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "40847617": {
+   "title": "Synthetic Lethal Combinations of DNA Repair Inhibitors and Genotoxic Agents to Target High-Risk Diffuse Large B Cell Lymphoma.",
+   "source": "Hematol Oncol",
+   "pubdate": "2025 Sep",
+   "epubdate": "",
+   "doi": "10.1002/hon.70131",
+   "first_author": "Ovejero S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40854903": {
+   "title": "Knowledge graph-aided Bayesian active learning for top-K genetic interaction discovery.",
+   "source": "Sci Rep",
+   "pubdate": "2025 Aug 25",
+   "epubdate": "2025 Aug 25",
+   "doi": "10.1038/s41598-025-13972-7",
+   "first_author": "Soper B",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40877927": {
+   "title": "DDX27 in cancer: molecular mechanisms, clinical implications, and therapeutic potential.",
+   "source": "J Transl Med",
+   "pubdate": "2025 Aug 28",
+   "epubdate": "2025 Aug 28",
+   "doi": "10.1186/s12967-025-07004-1",
+   "first_author": "Yang L",
+   "pubtype": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "40896366": {
+   "title": "CHEK1 is a synthetic lethal interactor of FBXO7 in colonic epithelial cells.",
+   "source": "Mol Ther Oncol",
+   "pubdate": "2025 Sep 18",
+   "epubdate": "2025 Aug 5",
+   "doi": "10.1016/j.omton.2025.201028",
+   "first_author": "Razi T",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40908147": {
+   "title": "Genetic suppression of precocious transcription termination identifies mutations in essential subunits of the fission yeast cleavage and polyadenylation machinery.",
+   "source": "RNA",
+   "pubdate": "2025 Oct 16",
+   "epubdate": "2025 Oct 16",
+   "doi": "10.1261/rna.080664.125",
+   "first_author": "Innokentev A",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  "40913762": {
+   "title": "DDX3X mutation and Epstein-Barr virus cooperate to induce R-loop-dependent oncogenesis.",
+   "source": "Cell Rep",
+   "pubdate": "2025 Sep 23",
+   "epubdate": "2025 Sep 5",
+   "doi": "10.1016/j.celrep.2025.116237",
+   "first_author": "Cai HM",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "40914864": {
+   "title": "Noncompetitive Inhibition of DNA Polymerase \u03b2 by a Nonnative Nucleotide.",
+   "source": "J Org Chem",
+   "pubdate": "2025 Sep 19",
+   "epubdate": "2025 Sep 7",
+   "doi": "10.1021/acs.joc.5c01529",
+   "first_author": "Howlader AH",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "40959971": {
+   "title": "Focal Adhesion Kinase Intersects With the BRD4-MYC Axis and YAP1 to Drive Tumor Cell Growth, Phenotypic Plasticity, Stemness, and Metastatic Potential in Colorectal Cancer.",
+   "source": "Cancer Med",
+   "pubdate": "2025 Sep",
+   "epubdate": "",
+   "doi": "10.1002/cam4.71227",
+   "first_author": "Han R",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41018953": {
+   "title": "Benchmarking genetic interaction scoring methods for identifying synthetic lethality from combinatorial CRISPR screens.",
+   "source": "NAR Genom Bioinform",
+   "pubdate": "2025 Sep",
+   "epubdate": "2025 Sep 26",
+   "doi": "10.1093/nargab/lqaf129",
+   "first_author": "Ajmal H",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41036607": {
+   "title": "Pharmacogenomic Synthetic Lethal Screens Reveal Hidden Vulnerabilities and New Therapeutic Approaches for Treatment of NF1-Associated Tumors.",
+   "source": "Mol Cancer Ther",
+   "pubdate": "2026 Feb 4",
+   "epubdate": "",
+   "doi": "10.1158/1535-7163.MCT-24-1053",
+   "first_author": "Williams KB",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41052159": {
+   "title": "Learning Universal Knowledge Graph Embedding for Predicting Biomedical Pairwise Interactions.",
+   "source": "IEEE Trans Comput Biol Bioinform",
+   "pubdate": "2025 Nov-Dec",
+   "epubdate": "",
+   "doi": "10.1109/TCBBIO.2025.3617331",
+   "first_author": "Tao S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41131861": {
+   "title": "Comprehensive investigation of the molecular basis of cancer dependencies suggests therapeutic options for breast cancer.",
+   "source": "Cancer Biol Med",
+   "pubdate": "2025 Oct 23",
+   "epubdate": "",
+   "doi": "10.20892/j.issn.2095-3941.2025.0290",
+   "first_author": "Ding R",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41150233": {
+   "title": "An Interpretable Complex Knowledge Multi-Hop Reasoning Model for Predicting Synthetic Lethality in Human Cancers.",
+   "source": "IEEE Trans Comput Biol Bioinform",
+   "pubdate": "2025 Nov-Dec",
+   "epubdate": "",
+   "doi": "10.1109/TCBBIO.2025.3626526",
+   "first_author": "Cheng J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41213161": {
+   "title": "Rational Design and Biological Evaluation of a Novel Pol\u03b8 Polymerase Inhibitor for Synergistic Targeting of HR-Deficient Cancers.",
+   "source": "J Med Chem",
+   "pubdate": "2025 Nov 27",
+   "epubdate": "2025 Nov 10",
+   "doi": "10.1021/acs.jmedchem.5c00818",
+   "first_author": "Yu Z",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41217910": {
+   "title": "KG-SLomics: Synthetic Lethality Prediction Using Knowledge Graph and Cancer Type-Specific Multiomics Integrated Graph Neural Network.",
+   "source": "IEEE Trans Comput Biol Bioinform",
+   "pubdate": "2025 Nov-Dec",
+   "epubdate": "",
+   "doi": "10.1109/TCBBIO.2025.3631499",
+   "first_author": "Lee S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41221029": {
+   "title": "Selective autophagy in hepatocellular carcinoma: Mechanisms, roles and therapeutic implications (Review).",
+   "source": "Exp Ther Med",
+   "pubdate": "2025 Dec",
+   "epubdate": "2025 Oct 15",
+   "doi": "10.3892/etm.2025.12995",
+   "first_author": "Hsieh CH",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41285729": {
+   "title": "RB loss sensitizes triple-negative breast cancer to apoptosis induced by cellular stress.",
+   "source": "Cell Death Discov",
+   "pubdate": "2025 Nov 24",
+   "epubdate": "2025 Nov 24",
+   "doi": "10.1038/s41420-025-02864-4",
+   "first_author": "Witkiewicz AK",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41336725": {
+   "title": "ESM4SL: Protein Language Models for Cancer Cell Line-specific Synthetic Lethality Prediction.",
+   "source": "Annu Int Conf IEEE Eng Med Biol Soc",
+   "pubdate": "2025 Jul",
+   "epubdate": "",
+   "doi": "10.1109/EMBC58623.2025.11254319",
+   "first_author": "Yang Q",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41337148": {
+   "title": "SL-MERK: Synthetic Lethality Mechanism Explainer based on GraphRAG and Knowledge Graph.",
+   "source": "Annu Int Conf IEEE Eng Med Biol Soc",
+   "pubdate": "2025 Jul",
+   "epubdate": "",
+   "doi": "10.1109/EMBC58623.2025.11254053",
+   "first_author": "Lv X",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41337397": {
+   "title": "Multi-view Contrastive Learning for Cell Line-specific Synthetic Lethality Prediction.",
+   "source": "Annu Int Conf IEEE Eng Med Biol Soc",
+   "pubdate": "2025 Jul",
+   "epubdate": "",
+   "doi": "10.1109/EMBC58623.2025.11252721",
+   "first_author": "Rui Y",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41375077": {
+   "title": "CRISPR-Cas9 Genome and Double-Knockout Screening to Identify Novel Therapeutic Targets for Chemoresistance in Triple-Negative Breast Cancer.",
+   "source": "Cancers (Basel)",
+   "pubdate": "2025 Dec 3",
+   "epubdate": "2025 Dec 3",
+   "doi": "10.3390/cancers17233876",
+   "first_author": "Shao S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41418667": {
+   "title": "Dual faces of USP10 in breast cancer: Oncogenic driver, tumor suppressor, and emerging therapeutic target.",
+   "source": "Biomed Pharmacother",
+   "pubdate": "2026 Jan",
+   "epubdate": "2025 Dec 18",
+   "doi": "10.1016/j.biopha.2025.118916",
+   "first_author": "Fan C",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41427373": {
+   "title": "PCNA Inhibition Enhances the Antitumor Activity of KRAS-Targeted Therapies in Pancreatic Cancer.",
+   "source": "bioRxiv",
+   "pubdate": "2025 Dec 10",
+   "epubdate": "2025 Dec 10",
+   "doi": "10.64898/2025.12.06.692635",
+   "first_author": "Bannoura SF",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "41442499": {
+   "title": "Rb1 deficiency induces synthetic lethality with ATR and PKMYT1 coinhibition in breast cancer cell lines and patient-derived xenografts.",
+   "source": "Sci Transl Med",
+   "pubdate": "2025 Dec 24",
+   "epubdate": "2025 Dec 24",
+   "doi": "10.1126/scitranslmed.adx6797",
+   "first_author": "Jiang XT",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Research Support, N.I.H., Extramural"
+   ]
+  },
+  "41487565": {
+   "title": "Context-specific targeting of focal adhesion kinase in brain tumors: lessons from glioblastoma and neurofibromatosis type 2-mutant meningioma.",
+   "source": "Front Oncol",
+   "pubdate": "2025",
+   "epubdate": "2025 Dec 19",
+   "doi": "10.3389/fonc.2025.1724278",
+   "first_author": "Sagerer A",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41491919": {
+   "title": "CDK12 and CDK13 in oncology: from RNA regulation to therapeutic targeting.",
+   "source": "Cell Oncol (Dordr)",
+   "pubdate": "2026 Jan 5",
+   "epubdate": "2026 Jan 5",
+   "doi": "10.1007/s13402-025-01131-z",
+   "first_author": "Dudkiewicz-Garbicz J",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41504119": {
+   "title": "Genetic Regulation of DNA Double-Strand Breaks and Repair Pathways.",
+   "source": "Front Biosci (Schol Ed)",
+   "pubdate": "2025 Dec 17",
+   "epubdate": "",
+   "doi": "10.31083/FBS46225",
+   "first_author": "Zastko L",
+   "pubtype": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "41507994": {
+   "title": "Synthetic essentiality of isoprenylcysteine carboxylmethyltransferase in PTEN deficient triple negative breast cancer.",
+   "source": "Exp Hematol Oncol",
+   "pubdate": "2026 Jan 8",
+   "epubdate": "2026 Jan 8",
+   "doi": "10.1186/s40164-025-00738-0",
+   "first_author": "Park BS",
+   "pubtype": [
+    "Letter"
+   ]
+  },
+  "41542642": {
+   "title": "Quantitative analysis of genetic interactions in human cells from genome-wide CRISPR-Cas9 screens.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Jan 5",
+   "epubdate": "2026 Jan 5",
+   "doi": "10.1101/2025.06.30.662330",
+   "first_author": "Billmann M",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "41544626": {
+   "title": "A context-augmented large language model for accurate precision oncology medicine recommendations.",
+   "source": "Cancer Cell",
+   "pubdate": "2026 Mar 9",
+   "epubdate": "2026 Jan 15",
+   "doi": "10.1016/j.ccell.2025.12.017",
+   "first_author": "Jun H",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41575849": {
+   "title": "Stress testing reveals selective vulnerabilities in protein homeostasis.",
+   "source": "Cell Rep",
+   "pubdate": "2026 Feb 24",
+   "epubdate": "2026 Jan 22",
+   "doi": "10.1016/j.celrep.2025.116892",
+   "first_author": "Aldikacti B",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41611789": {
+   "title": "A unified framework for pre-screening and screening tools in oncology clinical trials.",
+   "source": "NPJ Precis Oncol",
+   "pubdate": "2026 Jan 30",
+   "epubdate": "2026 Jan 30",
+   "doi": "10.1038/s41698-026-01306-3",
+   "first_author": "Horgan D",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41648610": {
+   "title": "Medea: An omics AI agent for therapeutic discovery.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Jan 20",
+   "epubdate": "2026 Jan 20",
+   "doi": "10.64898/2026.01.16.696667",
+   "first_author": "Sui P",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "41680300": {
+   "title": "Synthetic lethality of MCL-1 inhibition and CAR-T therapy in aggressive B-cell lymphoma.",
+   "source": "Leukemia",
+   "pubdate": "2026 Mar",
+   "epubdate": "2026 Feb 12",
+   "doi": "10.1038/s41375-026-02884-8",
+   "first_author": "Gao J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41727066": {
+   "title": "Analysis of Combinatorial Knockout CRISPR Screens with GRAPE: Genetic interaction Regression Analysis of Pairwise Effects.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Feb 11",
+   "epubdate": "2026 Feb 11",
+   "doi": "10.64898/2026.02.09.704894",
+   "first_author": "Chou J",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "41727427": {
+   "title": "The impact of p53 mutation on tumor immune evasion: mechanistic insights and clinical implications.",
+   "source": "Front Immunol",
+   "pubdate": "2026",
+   "epubdate": "2026 Feb 6",
+   "doi": "10.3389/fimmu.2026.1753215",
+   "first_author": "Liang L",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41727639": {
+   "title": "Multi-omics comprehensive analysis identified KIF22 and KRAS as highly synthetic lethal pairs for triple-negative breast cancer.",
+   "source": "Front Oncol",
+   "pubdate": "2026",
+   "epubdate": "2026 Feb 6",
+   "doi": "10.3389/fonc.2026.1748954",
+   "first_author": "Miao S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41807550": {
+   "title": "SMARCA4/2 loss reduces BCL-xL expression and confers a druggable MCL1 dependency in cancer.",
+   "source": "NPJ Precis Oncol",
+   "pubdate": "2026 Mar 10",
+   "epubdate": "2026 Mar 10",
+   "doi": "10.1038/s41698-026-01350-z",
+   "first_author": "Jiang J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41835396": {
+   "title": "Protein S-acylation dynamics provide metabolic plasticity to acute myeloid leukemia cells.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Mar 3",
+   "epubdate": "2026 Mar 3",
+   "doi": "10.64898/2026.03.02.708949",
+   "first_author": "Balasundaram N",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "41839763": {
+   "title": "Drug repurposing in oncology: Bridging computational discovery to clinical application.",
+   "source": "Int J Cancer",
+   "pubdate": "2026 Jul 15",
+   "epubdate": "2026 Mar 16",
+   "doi": "10.1002/ijc.70429",
+   "first_author": "Baskar S",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41858346": {
+   "title": "The dual regulatory role of METTL14-mediated m(6)A modification in tumorigenesis and its underlying mechanisms.",
+   "source": "Front Oncol",
+   "pubdate": "2026",
+   "epubdate": "2026 Mar 4",
+   "doi": "10.3389/fonc.2026.1771313",
+   "first_author": "Yang Y",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41876500": {
+   "title": "TrialMatchAI: an end-to-end AI-powered clinical trial recommendation system to streamline patient-to-trial matching.",
+   "source": "Nat Commun",
+   "pubdate": "2026 Mar 25",
+   "epubdate": "2026 Mar 25",
+   "doi": "10.1038/s41467-026-70509-w",
+   "first_author": "Abdallah M",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "41904584": {
+   "title": "Metabolic plasticity in pancreatic ductal adenocarcinoma progression and response to treatment.",
+   "source": "Mol Cancer",
+   "pubdate": "2026 Mar 28",
+   "epubdate": "2026 Mar 28",
+   "doi": "10.1186/s12943-026-02620-x",
+   "first_author": "Ma J",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "41984920": {
+   "title": "Higher order synthetic lethals are keys to minimize cancer treatment effects on non-tumor cells.",
+   "source": "PLoS One",
+   "pubdate": "2026",
+   "epubdate": "2026 Apr 15",
+   "doi": "10.1371/journal.pone.0342199",
+   "first_author": "Dehghan Manshadi M",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42026135": {
+   "title": "Context-dependent synthetic lethality - an emerging precision therapeutic approach.",
+   "source": "Nat Rev Cancer",
+   "pubdate": "2026 Jul",
+   "epubdate": "2026 Apr 23",
+   "doi": "10.1038/s41568-026-00929-9",
+   "first_author": "Chang L",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42049019": {
+   "title": "Global genetic interaction network of a human cell maps conserved principles and informs functional interpretation of gene co-essentiality profiles.",
+   "source": "Cell",
+   "pubdate": "2026 Jun 11",
+   "epubdate": "2026 Apr 27",
+   "doi": "10.1016/j.cell.2026.03.044",
+   "first_author": "Billmann M",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42083788": {
+   "title": "Molecular modulators of cyclin-dependent kinase 4/6 inhibitor response in experimental glioma identified through genome-wide CRISPR-Cas9 screening.",
+   "source": "Neuro Oncol",
+   "pubdate": "2026 Aug 1",
+   "epubdate": "",
+   "doi": "10.1093/neuonc/noag093",
+   "first_author": "Surender S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42124720": {
+   "title": "Uncertainty-aware synthetic lethality prediction with pretrained foundation models.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Feb 27",
+   "epubdate": "2026 Feb 27",
+   "doi": "10.64898/2026.02.25.708096",
+   "first_author": "Hua K",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "42171986": {
+   "title": "Repurposing Syrosingopine for Cancer Therapy: Lactate Trapping and ISR Sensitization as Metabolic Vulnerabilities.",
+   "source": "Oncol Ther",
+   "pubdate": "2026 Jun",
+   "epubdate": "2026 May 22",
+   "doi": "10.1007/s40487-026-00444-9",
+   "first_author": "Javidan M",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42181208": {
+   "title": "The CHK1 inhibitor Prexasertib is effective against in vitro models of aggressive thyroid carcinomas with defective p53 function.",
+   "source": "Front Endocrinol (Lausanne)",
+   "pubdate": "2026",
+   "epubdate": "2026 May 8",
+   "doi": "10.3389/fendo.2026.1743111",
+   "first_author": "Manzo A",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42182296": {
+   "title": "Comprehensive Analysis Reveals Adaptive DNA Repair and Replication Stress Networks in Genomically Unstable Breast Cancer.",
+   "source": "bioRxiv",
+   "pubdate": "2026 Aug 10",
+   "epubdate": "2026 Aug 10",
+   "doi": "10.64898/2026.05.13.724208",
+   "first_author": "Ramadan F",
+   "pubtype": [
+    "Journal Article",
+    "Preprint"
+   ]
+  },
+  "42211289": {
+   "title": "RareCure: An Open-Source Artificial Intelligence Pipeline for Context-Adaptive Treatment Discovery in Rare Solid Tumors.",
+   "source": "Cureus",
+   "pubdate": "2026 May",
+   "epubdate": "2026 May 27",
+   "doi": "10.7759/cureus.109744",
+   "first_author": "Arogyasami D",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42213569": {
+   "title": "MuSL: Multimodal deep learning for generalizable prediction of synthetic lethality from sequence, transcriptomic, and network data.",
+   "source": "IEEE J Biomed Health Inform",
+   "pubdate": "2026 May 29",
+   "epubdate": "2026 May 29",
+   "doi": "10.1109/JBHI.2026.3698476",
+   "first_author": "Feng Y",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42232064": {
+   "title": "Multi-omics dissection of R-loop dynamics in tumorigenesis: From transcription-replication conflict to therapeutic targets.",
+   "source": "Mol Ther Oncol",
+   "pubdate": "2026 Jun 18",
+   "epubdate": "2026 May 14",
+   "doi": "10.1016/j.omton.2026.201237",
+   "first_author": "Zhang Y",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42251262": {
+   "title": "Synthetic lethality between PBRM1 deficiency and PARP inhibitors: exploiting G2/M checkpoint arrest in colorectal cancer.",
+   "source": "Mol Med",
+   "pubdate": "2026 Jun 6",
+   "epubdate": "2026 Jun 6",
+   "doi": "10.1186/s10020-026-01525-1",
+   "first_author": "Islam MT",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "42255480": {
+   "title": "Targeting NRF2 addiction in cancer: synthetic lethal strategies beyond direct inhibition.",
+   "source": "Front Cell Dev Biol",
+   "pubdate": "2026",
+   "epubdate": "2026 May 21",
+   "doi": "10.3389/fcell.2026.1856014",
+   "first_author": "Gebru MT",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42264143": {
+   "title": "Harnessing computational intelligence for synthetic lethality: A roadmap from network biology to interpretable deep learning in precision oncology.",
+   "source": "N Biotechnol",
+   "pubdate": "2026 Sep 25",
+   "epubdate": "2026 Jun 9",
+   "doi": "10.1016/j.nbt.2026.06.001",
+   "first_author": "Noh Y",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42278581": {
+   "title": "Integrating Genome-Scale Metabolic Modeling with Machine Learning Improves Gene Essentiality Prediction in Triple-Negative Breast Cancer.",
+   "source": "Int J Mol Sci",
+   "pubdate": "2026 Jun 3",
+   "epubdate": "2026 Jun 3",
+   "doi": "10.3390/ijms27115059",
+   "first_author": "Kim BK",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42289745": {
+   "title": "CME-KGDTI: integrating clustered mutations into knowledge graph embedding for drug-target interaction prediction.",
+   "source": "BioData Min",
+   "pubdate": "2026 Jun 14",
+   "epubdate": "2026 Jun 14",
+   "doi": "10.1186/s13040-026-00576-8",
+   "first_author": "Jin J",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42290934": {
+   "title": "irAE.AI: AI-powered exploration of real-world immune-related adverse events.",
+   "source": "JAMIA Open",
+   "pubdate": "2026 Jun",
+   "epubdate": "2026 Jun 12",
+   "doi": "10.1093/jamiaopen/ooag094",
+   "first_author": "Fort G",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42292428": {
+   "title": "Molecular mechanisms of KMT2C alterations in gastrointestinal cancers: enhancer network destabilization, lineage plasticity, and clinical translation.",
+   "source": "Front Immunol",
+   "pubdate": "2026",
+   "epubdate": "2026 May 28",
+   "doi": "10.3389/fimmu.2026.1799765",
+   "first_author": "Zeng X",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42302790": {
+   "title": "FANCA-dependent FEN1 recruitment suppresses transcription-replication conflicts and PARPi sensitivity.",
+   "source": "Mol Cell",
+   "pubdate": "2026 Aug 6",
+   "epubdate": "2026 Jun 16",
+   "doi": "10.1016/j.molcel.2026.05.027",
+   "first_author": "Wang Q",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "42314466": {
+   "title": "Rewiring cell death and evading repair: Evolution of temozolomide and emerging strategies against resistant glioblastoma.",
+   "source": "Eur J Med Chem",
+   "pubdate": "2026 Oct 15",
+   "epubdate": "2026 Jun 11",
+   "doi": "10.1016/j.ejmech.2026.119049",
+   "first_author": "Wang L",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42349694": {
+   "title": "Targeting the KMT2D-driven Enhancer-Immune-Metabolic axis in HNSCC: Reconciling the paradox for precision therapy.",
+   "source": "Biochim Biophys Acta Rev Cancer",
+   "pubdate": "2026 Sep",
+   "epubdate": "2026 Jun 25",
+   "doi": "10.1016/j.bbcan.2026.189642",
+   "first_author": "Wang K",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42350371": {
+   "title": "Mitochondrial integrated stress response activation creates a therapeutic vulnerability to MCL-1 inhibition in acute myeloid leukemia.",
+   "source": "Cell Death Dis",
+   "pubdate": "2026 Jun 25",
+   "epubdate": "2026 Jun 25",
+   "doi": "10.1038/s41419-026-09037-w",
+   "first_author": "Brakefield-Laird L",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42351126": {
+   "title": "Integrative multi-omics and single-cell analysis identifies EGFR pathway activation and metabolic reprogramming as potential synthetic lethal vulnerabilities in resistance to the FGFR inhibitor AZD4547.",
+   "source": "J Transl Med",
+   "pubdate": "2026 Jun 25",
+   "epubdate": "2026 Jun 25",
+   "doi": "10.1186/s12967-026-08534-y",
+   "first_author": "Tan L",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "42352396": {
+   "title": "Targeting p53 in Cancer: Functional States, Therapeutic Strategies, and Clinical Progress.",
+   "source": "Cancers (Basel)",
+   "pubdate": "2026 Jun 6",
+   "epubdate": "2026 Jun 6",
+   "doi": "10.3390/cancers18121861",
+   "first_author": "Saunders A",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42380617": {
+   "title": "Distinct ATRX functions cooperate with 9-1-1 and CST complexes to safeguard replication and telomere integrity.",
+   "source": "Nat Struct Mol Biol",
+   "pubdate": "2026 Jul",
+   "epubdate": "2026 Jun 30",
+   "doi": "10.1038/s41594-026-01827-2",
+   "first_author": "Segura-Bayona S",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42387642": {
+   "title": "PKMYT1 in Cancer: Beyond Cell Cycle Checkpoints to Context-Dependent Therapeutic Vulnerability.",
+   "source": "Genes Chromosomes Cancer",
+   "pubdate": "2026 Jul",
+   "epubdate": "",
+   "doi": "10.1002/gcc.70151",
+   "first_author": "Li L",
+   "pubtype": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "42499761": {
+   "title": "RAG-GNN: retrieval-augmented graph neural networks for protein interaction network embeddings.",
+   "source": "Front Artif Intell",
+   "pubdate": "2026",
+   "epubdate": "2026 Jul 10",
+   "doi": "10.3389/frai.2026.1851917",
+   "first_author": "Hays H",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42511857": {
+   "title": "Divergent Roles of Canonical and Non-Canonical Mismatch Repair in Regulating Temozolomide Sensitivity in Glioblastoma.",
+   "source": "Int J Mol Sci",
+   "pubdate": "2026 Jul 22",
+   "epubdate": "2026 Jul 22",
+   "doi": "10.3390/ijms27146517",
+   "first_author": "Gupta SK",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42512423": {
+   "title": "Pharmacologic Resistance in Soft Tissue Sarcomas: Mechanisms, Biomarkers, and Translational Therapeutic Strategies.",
+   "source": "Cancers (Basel)",
+   "pubdate": "2026 Jul 22",
+   "epubdate": "2026 Jul 22",
+   "doi": "10.3390/cancers18142364",
+   "first_author": "Garc\u00eda-Ortega DY",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42517066": {
+   "title": "MYC in Oncogenesis and Therapeutic Implications.",
+   "source": "MedComm (2020)",
+   "pubdate": "2026 Aug",
+   "epubdate": "2026 Jul 27",
+   "doi": "10.1002/mco2.70893",
+   "first_author": "Zhang N",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42528148": {
+   "title": "Patient-Derived Organoid-Based CRISPR Screens in Cancer Research: Applications, Advances, and Challenges.",
+   "source": "Cancer Med",
+   "pubdate": "2026 Aug",
+   "epubdate": "",
+   "doi": "10.1002/cam4.72112",
+   "first_author": "du Plessis J",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42558868": {
+   "title": "Rewired DDR-TGF-\u03b2-\u03b2-catenin-PD-L1 axis accelerates progression and shapes therapy in human papillomavirus-driven cancer.",
+   "source": "Front Immunol",
+   "pubdate": "2026",
+   "epubdate": "2026 Jul 22",
+   "doi": "10.3389/fimmu.2026.1907171",
+   "first_author": "Liu W",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42574757": {
+   "title": "Beyond Catalytic Inhibition: The Evolving Landscape of PARP Pharmacology.",
+   "source": "Annu Rev Pharmacol Toxicol",
+   "pubdate": "2026 Aug 10",
+   "epubdate": "2026 Aug 10",
+   "doi": "10.1146/annurev-pharmtox-060425-062841",
+   "first_author": "Owens MC",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42623915": {
+   "title": "Curcumin exerts distinct anti-tumor effects mediated by NRF1\u03b1 from NRF2 via metabolic reprogramming in hepatocellular carcinoma (HepG2).",
+   "source": "Bioorg Chem",
+   "pubdate": "2026 Oct 5",
+   "epubdate": "2026 Aug 16",
+   "doi": "10.1016/j.bioorg.2026.110405",
+   "first_author": "Wufuer R",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42626789": {
+   "title": "Epigenetic Rewiring and Context-Dependent Therapeutic Vulnerabilities in Myeloproliferative Neoplasms.",
+   "source": "Hematol Oncol",
+   "pubdate": "2026 Sep",
+   "epubdate": "",
+   "doi": "10.1002/hon.70239",
+   "first_author": "Abdelgawwad El-Sehrawy AAM",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42634504": {
+   "title": "Epigenetic Modifiers and Synthetic Lethality in Cancer Therapy: Emerging Targets Beyond Traditional Approaches.",
+   "source": "Curr Top Med Chem",
+   "pubdate": "2026 Aug 3",
+   "epubdate": "2026 Aug 3",
+   "doi": "10.2174/0115680266453780260728100531",
+   "first_author": "Kamath V",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42660065": {
+   "title": "Synthesis and biological evaluation of optically active Z250-1659 as a synthetic lethal agent against BAP1-deficient mesothelioma cells.",
+   "source": "Bioorg Med Chem",
+   "pubdate": "2026 Dec",
+   "epubdate": "2026 Aug 26",
+   "doi": "10.1016/j.bmc.2026.118782",
+   "first_author": "Tsutsumi T",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42685085": {
+   "title": "Changes in the transcriptome and synthetic lethal dependencies following KRAS mutant expression reveal profound tissue specificity.",
+   "source": "Proc Natl Acad Sci U S A",
+   "pubdate": "2026 Sep 8",
+   "epubdate": "2026 Sep 2",
+   "doi": "10.1073/pnas.2614664123",
+   "first_author": "Martin TD",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42701198": {
+   "title": "Integrating molecular subtypes, genomics and functional dependencies to identify context-specific therapeutic vulnerabilities in small cell lung cancer.",
+   "source": "Biomark Res",
+   "pubdate": "2026 Sep 5",
+   "epubdate": "2026 Sep 5",
+   "doi": "10.1186/s40364-026-00991-3",
+   "first_author": "Cassotti I",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42704265": {
+   "title": "GiGCN: a network-based framework for uncovering synthetic lethal and viable genetic interactions.",
+   "source": "Brief Bioinform",
+   "pubdate": "2026 Sep 1",
+   "epubdate": "",
+   "doi": "10.1093/bib/bbag470",
+   "first_author": "Wang Q",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42712955": {
+   "title": "Graph neural networks for multi-scale gene-drug interaction modeling in cancer: applications, challenges, and therapeutic opportunities for breast cancer drug resistance.",
+   "source": "Front Oncol",
+   "pubdate": "2026",
+   "epubdate": "2026 Aug 25",
+   "doi": "10.3389/fonc.2026.1929697",
+   "first_author": "Das PR",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42720810": {
+   "title": "Beyond KRASG12C: emerging therapeutic strategies, patent landscape, and clinical progress in targeting KRAS-mutant cancers.",
+   "source": "Med Oncol",
+   "pubdate": "2026 Sep 10",
+   "epubdate": "2026 Sep 10",
+   "doi": "10.1007/s12032-026-03392-6",
+   "first_author": "Chatterjee S",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42721585": {
+   "title": "MCKG-SL: Knowledge graph-based multi-feature cross-aggregation synthetic lethality prediction for KRAS gene.",
+   "source": "Artif Intell Med",
+   "pubdate": "2026 Dec",
+   "epubdate": "2026 Sep 10",
+   "doi": "10.1016/j.artmed.2026.103519",
+   "first_author": "Liu Q",
+   "pubtype": [
+    "Journal Article"
+   ]
+  },
+  "42747431": {
+   "title": "ATP-dependent chromatin remodelers in prostate cancer progression and therapeutic resistance.",
+   "source": "Endocrinology",
+   "pubdate": "2026 Sep 3",
+   "epubdate": "",
+   "doi": "10.1210/endocr/bqag103",
+   "first_author": "Torres LM",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42748573": {
+   "title": "The emerging landscape of polymerase \u03b8 in tumor pathogenesis and precision treatment.",
+   "source": "Biochem Biophys Res Commun",
+   "pubdate": "2026 Oct 29",
+   "epubdate": "2026 Sep 15",
+   "doi": "10.1016/j.bbrc.2026.154593",
+   "first_author": "Lei M",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42773173": {
+   "title": "Replication stress in cancer: origins, consequences and therapeutic opportunities.",
+   "source": "Nat Rev Cancer",
+   "pubdate": "2026 Sep 22",
+   "epubdate": "2026 Sep 22",
+   "doi": "10.1038/s41568-026-00979-z",
+   "first_author": "Chen J",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42794728": {
+   "title": "Expanding Synthetic Lethality in DNA Damage Response-Defective Cancers Through Stress Phenotype-Guided Kinase Targeting.",
+   "source": "Int J Mol Sci",
+   "pubdate": "2026 Sep 17",
+   "epubdate": "2026 Sep 17",
+   "doi": "10.3390/ijms27188301",
+   "first_author": "Masi M",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42862883": {
+   "title": "Explainable/interpretable artificial intelligence and knowledge graph neural network for synthetic lethality prediction: overview, challenges, and future directions.",
+   "source": "Brief Bioinform",
+   "pubdate": "2026 Sep 1",
+   "epubdate": "",
+   "doi": "10.1093/bib/bbag564",
+   "first_author": "Felloussi S",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42881166": {
+   "title": "Ablation of CDK6 and STAT5B rewires T cell developmental dynamics and prevents ALK(+) lymphoma formation.",
+   "source": "Nat Commun",
+   "pubdate": "2026 Sep 15",
+   "epubdate": "2026 Sep 15",
+   "doi": "10.1038/s41467-026-77466-4",
+   "first_author": "Kendler J",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ]
+  },
+  "42907311": {
+   "title": "Microbial resistance from genotype to metabolic phenotype.",
+   "source": "Trends Microbiol",
+   "pubdate": "2026 Oct 21",
+   "epubdate": "2026 Oct 21",
+   "doi": "10.1016/j.tim.2026.09.009",
+   "first_author": "Clasen F",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ]
+  },
+  "42963884": {
+   "title": "A Large Language Model Framework for Seed Implant Brachytherapy: Adaptive Weight Optimization via Retrieval-Augmented Generation.",
+   "source": "Ann N Y Acad Sci",
+   "pubdate": "2026 Nov",
+   "epubdate": "",
+   "doi": "10.1111/nyas.70448",
+   "first_author": "Xiao Z",
+   "pubtype": [
+    "Journal Article"
+   ]
+  }
+ }
+}

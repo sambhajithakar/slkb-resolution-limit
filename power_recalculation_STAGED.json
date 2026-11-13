@@ -1,0 +1,166 @@
+{
+ "status_of_this_result": "STAGED \u2014 produced by CC-02 code that is staged, not registered. It is not a final planning figure until CC-02 is approved.",
+ "what_this_is_not": "not a hypothesis test, not a confirmatory quantity, not a measured effect",
+ "covariance_report": {
+  "n_queries": 1114,
+  "n_screens": 11,
+  "G_cell_models": 8,
+  "G_studies": 7,
+  "sd_between_cell_models": {
+   "point": 0.049593598361918644,
+   "cell_model_values": [
+    0.01815093523229973,
+    0.003269408960854839,
+    0.04278690772645025,
+    -0.06773006095601078,
+    0.006857349142967156,
+    0.01416019374415577,
+    -0.011345459913499497,
+    -0.10649323395898325
+   ],
+   "estimator": "registered stats.sd_between_cluster_means, unchanged"
+  },
+  "rho_within_study": {
+   "name": "rho_within_study",
+   "estimate": -0.08935115034835617,
+   "estimator": "one-way ICC of screen values grouped by study (registered icc_oneway)",
+   "n_informative_pairs": 5,
+   "n_contributing_groups": 3,
+   "weakly_identified": true,
+   "reason": "only 3 study groups contribute a pair, so the pairs are not independent replicates of this correlation; the point estimate is not reliable",
+   "pairs": [
+    [
+     "28319113",
+     "293T",
+     "A549"
+    ],
+    [
+     "28319113",
+     "293T",
+     "HELA"
+    ],
+    [
+     "28319113",
+     "A549",
+     "HELA"
+    ],
+    [
+     "29452643",
+     "A549",
+     "HELA"
+    ],
+    [
+     "30033366",
+     "JURKAT",
+     "K562"
+    ]
+   ],
+   "upper_limit": {
+    "upper_limit": 0.7163115679646611,
+    "level": 0.8,
+    "n_draws_used": 1952,
+    "n_draws_degenerate": 48,
+    "note": "Resamples without an informative pair are excluded and counted, not imputed."
+   }
+  },
+  "rho_shared_line": {
+   "name": "rho_shared_line",
+   "estimate": -0.48671011891234095,
+   "estimator": "one-way ICC of screen values grouped by cell_line (registered icc_oneway)",
+   "n_informative_pairs": 3,
+   "n_contributing_groups": 3,
+   "weakly_identified": true,
+   "reason": "only 3 informative pairs; only 3 cell_line groups contribute a pair, so the pairs are not independent replicates of this correlation; the point estimate is not reliable",
+   "pairs": [
+    [
+     "A549",
+     "28319113",
+     "29452643"
+    ],
+    [
+     "HELA",
+     "28319113",
+     "29452643"
+    ],
+    [
+     "K562",
+     "28319085",
+     "30033366"
+    ]
+   ],
+   "upper_limit": {
+    "upper_limit": 0.08484574604128126,
+    "level": 0.8,
+    "n_draws_used": 1950,
+    "n_draws_degenerate": 50,
+    "note": "Resamples without an informative pair are excluded and counted, not imputed."
+   }
+  },
+  "cell_model_screens": {
+   "22RV1": 1,
+   "293T": 1,
+   "A549": 2,
+   "HELA": 2,
+   "JURKAT": 1,
+   "K562": 2,
+   "OVCAR8": 1,
+   "RPE1": 1
+  },
+  "limitation": "This design offers 5 within-study pairs and 3 shared-line pairs, so both correlations are weakly identified. Their point estimates must not be used as if measured; power.py substitutes the conservative scenario instead."
+ },
+ "power_recalculation": {
+  "rule": "SD at its 80% upper limit; each correlation at min(0.6, its 80% upper limit), or 0.6 when weakly identified; conjunctive rule; fixed seed",
+  "fixed_before_pilot": true,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "scenario": {
+   "rho_within_study": {
+    "used": 0.4,
+    "basis": "weakly identified",
+    "point_estimate": -0.08935115034835617,
+    "n_informative_pairs": 5,
+    "conservative": true,
+    "used_before_cap": 0.6
+   },
+   "rho_shared_line": {
+    "used": 0.4,
+    "basis": "weakly identified",
+    "point_estimate": -0.48671011891234095,
+    "n_informative_pairs": 3,
+    "conservative": true,
+    "used_before_cap": 0.6
+   },
+   "total_capping": {
+    "total_before": 1.2,
+    "total_after": 0.8,
+    "factor": 0.6666666666666667,
+    "why": "both components entered at their worst case, which leaves no residual variance; they are scaled proportionally to MAX_TOTAL_RHO"
+   }
+  },
+  "sd_between_cell_models": {
+   "point": 0.049593598361918644,
+   "upper_limit_80": 0.06711367349142783
+  },
+  "detectable_effect_in_sd_units": {
+   "conjunction": 1.4,
+   "study_arm": 1.35,
+   "cell_model_arm": 1.25
+  },
+  "detectable_difference_in_ap_units": {
+   "conjunction_at_sd_point": 0.0694310377066861,
+   "conjunction_at_sd_upper_limit": 0.09395914288799895
+  },
+  "registered_range_in_sd_units": [
+   1.25,
+   1.5
+  ],
+  "status": "WITHIN_REGISTERED_RANGE",
+  "action_required": null,
+  "caveats": [
+   "Simulation assumes normal screen-level errors; the guarantee is simulation-based.",
+   "The scenario is conservative because both correlations are weakly identified at this design.",
+   "A planning statement, not a detectable effect claimed for the study."
+  ],
+  "curve": "    rho_within_study  rho_shared_line  ...  arm_correlation   n_sim\n0                0.4              0.4  ...         0.886989  4000.0\n1                0.4              0.4  ...         0.886989  4000.0\n2                0.4              0.4  ...         0.886989  4000.0\n3                0.4              0.4  ...         0.886989  4000.0\n4                0.4              0.4  ...         0.886989  4000.0\n5                0.4              0.4  ...         0.886989  4000.0\n6                0.4              0.4  ...         0.886989  4000.0\n7                0.4              0.4  ...         0.886989  4000.0\n8                0.4              0.4  ...         0.886989  4000.0\n9                0.4              0.4  ...         0.886989  4000.0\n10               0.4              0.4  ...         0.886989  4000.0\n11               0.4              0.4  ...         0.886989  4000.0\n12               0.4              0.4  ...         0.886989  4000.0\n13               0.4              0.4  ...         0.886989  4000.0\n14               0.4              0.4  ...         0.886989  4000.0\n15               0.4              0.4  ...         0.886989  4000.0\n16               0.4              0.4  ...         0.886989  4000.0\n17               0.4              0.4  ...         0.886989  4000.0\n18               0.4              0.4  ...         0.886989  4000.0\n19               0.4              0.4  ...         0.886989  4000.0\n20               0.4              0.4  ...         0.886989  4000.0\n21               0.4              0.4  ...         0.886989  4000.0\n22               0.4              0.4  ...         0.886989  4000.0\n23               0.4              0.4  ...         0.886989  4000.0\n24               0.4              0.4  ...         0.886989  4000.0\n25               0.4              0.4  ...         0.886989  4000.0\n26               0.4              0.4  ...         0.886989  4000.0\n27               0.4              0.4  ...         0.886989  4000.0\n28               0.4              0.4  ...         0.886989  4000.0\n29               0.4              0.4  ...         0.886989  4000.0\n30               0.4              0.4  ...         0.886989  4000.0\n31               0.4              0.4  ...         0.886989  4000.0\n32               0.4              0.4  ...         0.886989  4000.0\n33               0.4              0.4  ...         0.886989  4000.0\n34               0.4              0.4  ...         0.886989  4000.0\n35               0.4              0.4  ...         0.886989  4000.0\n36               0.4              0.4  ...         0.886989  4000.0\n37               0.4              0.4  ...         0.886989  4000.0\n38               0.4              0.4  ...         0.886989  4000.0\n39               0.4              0.4  ...         0.886989  4000.0\n40               0.4              0.4  ...         0.886989  4000.0\n41               0.4              0.4  ...         0.886989  4000.0\n42               0.4              0.4  ...         0.886989  4000.0\n43               0.4              0.4  ...         0.886989  4000.0\n44               0.4              0.4  ...         0.886989  4000.0\n45               0.4              0.4  ...         0.886989  4000.0\n46               0.4              0.4  ...         0.886989  4000.0\n47               0.4              0.4  ...         0.886989  4000.0\n48               0.4              0.4  ...         0.886989  4000.0\n49               0.4              0.4  ...         0.886989  4000.0\n50               0.4              0.4  ...         0.886989  4000.0\n\n[51 rows x 8 columns]"
+ }
+}

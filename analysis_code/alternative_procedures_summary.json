@@ -1,0 +1,155 @@
+{
+ "what_this_is": "design-only comparison of candidate confirmatory procedures",
+ "what_this_is_not": "not a hypothesis test; no observed average precision is read",
+ "seed": 20261031,
+ "n_sim": 20000,
+ "n_sim_P4": 2000,
+ "alpha": 0.05,
+ "delta_in_sd": 1.4,
+ "gate_threshold": 1.0,
+ "structure": {
+  "screens": 11,
+  "cell_models": 8,
+  "studies": 7
+ },
+ "addresses_null": {
+  "P1_conjunction": "mean of cluster values = 0, exact under independence AND symmetry",
+  "P2_conjunction_gated": "same null; confirmatory status withheld when the sample skewness of the cell-model values exceeds the pre-set threshold",
+  "P3_conjunction_signtest": "MEDIAN of cluster values = 0 \u2014 a DIFFERENT null. Under a skewed mean-zero law its rejection rate is not a type I error for the registered estimand",
+  "P4_cell_wilcoxon": "median = 0 AND symmetry; it assumes exactly what is in question"
+ },
+ "by_error_law": {
+  "chisq1": {
+   "skewness_of_cluster_values_mean": 0.96,
+   "size_at_independence": {
+    "P1_conjunction": 0.078,
+    "P2_conjunction_gated": 0.0374,
+    "P3_conjunction_signtest": 0.0234,
+    "P4_cell_wilcoxon": 0.1245
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.078,
+    "P2_conjunction_gated": 0.0485,
+    "P3_conjunction_signtest": 0.0234,
+    "P4_cell_wilcoxon": 0.1245
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 1.0,
+    "P2_conjunction_gated": 0.3548,
+    "P3_conjunction_signtest": 1.0,
+    "P4_cell_wilcoxon": 1.0
+   },
+   "gate_pass_rate_under_null": 0.3548
+  },
+  "gamma1": {
+   "skewness_of_cluster_values_mean": 0.705,
+   "size_at_independence": {
+    "P1_conjunction": 0.0517,
+    "P2_conjunction_gated": 0.0343,
+    "P3_conjunction_signtest": 0.0125,
+    "P4_cell_wilcoxon": 0.081
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.0517,
+    "P2_conjunction_gated": 0.0394,
+    "P3_conjunction_signtest": 0.0139,
+    "P4_cell_wilcoxon": 0.1055
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 1.0,
+    "P2_conjunction_gated": 0.5172,
+    "P3_conjunction_signtest": 1.0,
+    "P4_cell_wilcoxon": 1.0
+   },
+   "gate_pass_rate_under_null": 0.5172
+  },
+  "gamma4": {
+   "skewness_of_cluster_values_mean": 0.358,
+   "size_at_independence": {
+    "P1_conjunction": 0.0284,
+    "P2_conjunction_gated": 0.022,
+    "P3_conjunction_signtest": 0.0046,
+    "P4_cell_wilcoxon": 0.0505
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.0404,
+    "P2_conjunction_gated": 0.0321,
+    "P3_conjunction_signtest": 0.0091,
+    "P4_cell_wilcoxon": 0.0755
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 0.9906,
+    "P2_conjunction_gated": 0.7138,
+    "P3_conjunction_signtest": 0.7909,
+    "P4_cell_wilcoxon": 0.997
+   },
+   "gate_pass_rate_under_null": 0.7217
+  },
+  "lognormal": {
+   "skewness_of_cluster_values_mean": 0.844,
+   "size_at_independence": {
+    "P1_conjunction": 0.0638,
+    "P2_conjunction_gated": 0.0458,
+    "P3_conjunction_signtest": 0.017,
+    "P4_cell_wilcoxon": 0.088
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.0639,
+    "P2_conjunction_gated": 0.0496,
+    "P3_conjunction_signtest": 0.0174,
+    "P4_cell_wilcoxon": 0.119
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 1.0,
+    "P2_conjunction_gated": 0.4787,
+    "P3_conjunction_signtest": 1.0,
+    "P4_cell_wilcoxon": 1.0
+   },
+   "gate_pass_rate_under_null": 0.4787
+  },
+  "normal": {
+   "skewness_of_cluster_values_mean": 0.002,
+   "size_at_independence": {
+    "P1_conjunction": 0.019,
+    "P2_conjunction_gated": 0.0139,
+    "P3_conjunction_signtest": 0.0029,
+    "P4_cell_wilcoxon": 0.038
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.0382,
+    "P2_conjunction_gated": 0.0302,
+    "P3_conjunction_signtest": 0.0086,
+    "P4_cell_wilcoxon": 0.0675
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 0.8928,
+    "P2_conjunction_gated": 0.7212,
+    "P3_conjunction_signtest": 0.5272,
+    "P4_cell_wilcoxon": 0.9215
+   },
+   "gate_pass_rate_under_null": 0.8082
+  },
+  "t3": {
+   "skewness_of_cluster_values_mean": -0.008,
+   "size_at_independence": {
+    "P1_conjunction": 0.0202,
+    "P2_conjunction_gated": 0.0115,
+    "P3_conjunction_signtest": 0.0027,
+    "P4_cell_wilcoxon": 0.035
+   },
+   "size_worst_over_dependence_grid": {
+    "P1_conjunction": 0.0352,
+    "P2_conjunction_gated": 0.0234,
+    "P3_conjunction_signtest": 0.0069,
+    "P4_cell_wilcoxon": 0.0665
+   },
+   "power_at_delta_independence": {
+    "P1_conjunction": 0.9044,
+    "P2_conjunction_gated": 0.6108,
+    "P3_conjunction_signtest": 0.674,
+    "P4_cell_wilcoxon": 0.9205
+   },
+   "gate_pass_rate_under_null": 0.6463
+  }
+ }
+}

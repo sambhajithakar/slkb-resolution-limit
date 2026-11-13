@@ -1,0 +1,12 @@
+{
+  "title": "SLKB resolution limit: audit, criterion and calculator",
+  "upload_type": "software",
+  "description": "Analysis code, stored results and reproduction instructions for the study \"Machine-learning benchmarks for synthetic lethality have a computable resolution limit: a pre-study criterion from the sharing structure of pooled CRISPR screens\" (Thakar SB, Ghorpade PN). Includes the released calculator that returns the connected-component count G of a resource's study-by-cell-model incidence graph and the attainable p-value floor it implies, the simulation of type I error over the real sharing structure under ten error laws, the variance-component pilot, the packaged tests and the stored result files. No input data are redistributed; each input is identified by SHA-256 and download date so the exact version can be recovered from its original source.",
+  "creators": [
+    {"name": "Thakar, Sambhaji Balaso", "orcid": "0000-0002-0423-2015", "affiliation": "Aditya BioNova Analytics"},
+    {"name": "Ghorpade, Pradnya Namdev", "orcid": "0000-0001-6593-825X", "affiliation": "Aditya BioNova Analytics"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["synthetic lethality", "CRISPR screens", "benchmark design", "permutation tests", "effective sample size", "reproducibility"]
+}

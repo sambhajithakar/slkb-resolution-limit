@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "SLKB resolution limit: audit, criterion and calculator"
+abstract: "Analysis code, stored results and reproduction instructions for the study of the inferential resolution of pooled combinatorial CRISPR screen resources: the connected-component count G of the study x cell-model incidence graph, the attainable p-value floor it implies for exact sign-symmetry inference, the measured type I error of every attainable decision rule, and the released calculator."
+authors:
+  - family-names: "Thakar"
+    given-names: "Sambhaji Balaso"
+    orcid: "https://orcid.org/0000-0002-0423-2015"
+  - family-names: "Ghorpade"
+    given-names: "Pradnya Namdev"
+    orcid: "https://orcid.org/0000-0001-6593-825X"
+license: MIT
