@@ -1,5 +1,7 @@
 # SLKB resolution limit: audit, criterion and calculator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24201153.svg)](https://doi.org/10.5281/zenodo.24201153)
+
 Analysis code, stored results and the reproduction instructions accompanying the manuscript:
 
 > **Machine-learning benchmarks for synthetic lethality have a computable resolution limit: a pre-study criterion from the sharing structure of pooled CRISPR screens**
@@ -68,6 +70,12 @@ No input data are redistributed here. The labels come from the Synthetic Lethali
 from NCBI Gene `gene2pubmed` and `Homo_sapiens.gene_info`; and the retrieval corpus from the PubMed
 annual baseline. Each input is identified in `pilot_report_REAL.json` by its SHA-256 and download
 date, so the exact version used can be recovered from its original source.
+
+## Archived version
+
+The version submitted with the manuscript is archived at Zenodo:
+doi:[10.5281/zenodo.24201153](https://doi.org/10.5281/zenodo.24201153) (release `v1.0.0`).
+The all-versions DOI is [10.5281/zenodo.24201152](https://doi.org/10.5281/zenodo.24201152).
 
 ## Licence
 
